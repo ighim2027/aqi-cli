@@ -57,10 +57,3 @@ for c in [0.0, 9.0, 9.1, 35.4, 35.5, 55.4, 125.4]:
 
 Every EPA breakpoint should land on exactly 0/50/51/100/101/150/200.
 
-## TODO
-
-- [ ] NowCast instead of raw instantaneous readings
-- [ ] Other pollutants (O3, NO2, PM10) and report the dominant one
-- [ ] Handle OpenAQ pagination; currently caps at 10 stations
-- [ ] `--zip` lookup instead of raw lat/lon
-- [ ] Actual test file instead of a one-liner
